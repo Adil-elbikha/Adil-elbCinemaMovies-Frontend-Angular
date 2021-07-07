@@ -1,7 +1,7 @@
 .clickable{
   cursor: pointer;
 }
-.ticket{
-  margin: 5px;
+.tickets{
+  margin: 10px;
   width: 40px;
 }

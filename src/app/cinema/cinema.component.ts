@@ -3,11 +3,17 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {CinemaService} from '../services/cinema.service';
 
 
+
+
 @Component({
   selector: 'app-cinema',
   templateUrl: './cinema.component.html',
   styleUrls: ['./cinema.component.css']
 })
+
+
+// tslint:disable-next-line:component-class-suffix
+
 export class CinemaComponent implements OnInit {
 
   public villes: any ;
